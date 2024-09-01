@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'DS-Digital';
+    src: url(resources/DS-DIGII.TTF) format('truetype');
+}
+
 *, *::before, *::after {
     box-sizing: border-box;
     margin: 0;
@@ -46,7 +51,7 @@ body {
     height: 80px;
     background-color: rgb(0, 0, 0);
     color: rgb(255, 208, 97);
-    font-family: 'DS-Digital';
+    font-family: 'DS-Digital', sans-serif;
     font-style: italic;
     border-radius: 8px;
     text-align: right;
